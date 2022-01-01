@@ -1,3 +1,6 @@
+Aim: Implementation of Hill Climbing Algorithm
+
+Program:
 import random
 def randomSolution(tsp):
     cities = list(range(len(tsp)))
@@ -51,3 +54,6 @@ def main():
     print(hillClimbing(tsp))
 if __name__ == "__main__":
     main()
+    
+Output:
+([1, 0, 3, 2], 1400)    
