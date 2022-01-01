@@ -1,3 +1,4 @@
+Program:
 class Solution:
 	def solve(self, board): 
 		dict = {} 
@@ -10,7 +11,6 @@ class Solution:
 		if flatten == (3,1,2,4,0,5,6,7,8):#(0, 1, 2, 3, 4, 5, 6, 7, 8): 
 			return 0 
 		return self.get_paths(dict) 
-
 	def get_paths(self, dict): 
 		cnt = 0
 		print("dict=",dict)
@@ -42,3 +42,14 @@ class Solution:
 ob = Solution() 
 matrix = [ [3, 1, 2], [4, 7, 5], [6, 8, 0]]
 print(ob.solve(matrix))
+
+Output:
+Dictionary= {(3, 1, 2, 4, 7, 5, 6, 8, 0): 0}
+dict= {(3, 1, 2, 4, 7, 5, 6, 8, 0): 0}
+Current Nodes= [(3, 1, 2, 4, 7, 5, 6, 8, 0)]
+Current Node= (3, 1, 2, 4, 7, 5, 6, 8, 0)
+[(3, 1, 2, 4, 7, 0, 6, 8, 5), (3, 1, 2, 4, 7, 5, 6, 0, 8)]
+Current Nodes= [(3, 1, 2, 4, 7, 5, 6, 0, 8)]
+Current Node= (3, 1, 2, 4, 7, 5, 6, 0, 8)
+[(3, 1, 2, 4, 0, 5, 6, 7, 8), (3, 1, 2, 4, 7, 5, 0, 6, 8), (3, 1, 2, 4, 7, 5, 6, 8, 0)]
+3	
