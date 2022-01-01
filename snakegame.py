@@ -1,3 +1,6 @@
+Aim: Implementation of Snake game
+
+Program:
 import turtle
 import random
 w = 500
