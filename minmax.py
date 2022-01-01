@@ -1,3 +1,6 @@
+Aim:Implement any two Player game using min-max search algorithm
+
+Program:
 import random
 import copy as cp
 class Cell:
@@ -292,3 +295,166 @@ init_board = [[0, 1, 2],
               [3, 4, 5],
               [6, 7, 8]]
 GameInitializer(init_board)
+
+Output:
+ Do you want to go first or the computer goes first?
+Enter 'c' for computer first, or 'p' if you would like to go first
+Your Choice: c
+
+
+Utility Board:
+
+[0, 3, -3]  [1, 2, -2]  [2, 3, -3]  
+
+[3, 2, -2]  [4, 4, -4]  [5, 2, -2]  
+
+[6, 3, -3]  [7, 2, -2]  [8, 3, -3]  
+
+
+
+Tictactoe Board:
+
+0  1  2  
+
+3  4  5  
+
+6  7  8  
+
+
+
+Tictactoe Board:
+
+0  1  2  
+
+3  O  5  
+
+6  7  8  
+
+
+(The player's turn) Enter the empty position you want to place your 'X': 5
+
+
+Utility Board:
+
+[0, 5, -2]  [1, 4, -1]  [2, 3, -3]  
+
+[3, 2, -1]     O        X     
+
+[6, 4, -2]  [7, 4, -1]  [8, 4, -3]  
+
+
+
+Tictactoe Board:
+
+0  1  2  
+
+3  O  X  
+
+6  7  8  
+
+
+
+Tictactoe Board:
+
+O  1  2  
+
+3  O  X  
+
+6  7  8  
+
+
+(The player's turn) Enter the empty position you want to place your 'X': 2
+
+
+Utility Board:
+
+   O     [1, 2, 0]     X     
+
+[3, 2, 0]     O        X     
+
+[6, 3, -1]  [7, 3, -1]  [8, 11, -11]  
+
+
+
+Tictactoe Board:
+
+O  1  X  
+
+3  O  X  
+
+6  7  8  
+
+
+
+Tictactoe Board:
+
+O  1  X  
+
+3  O  X  
+
+6  7  O  
+
+The computer won!
+
+
+Utility Board:
+
+   O     [1, 2, 0]     X     
+
+[3, 2, 0]     O        X     
+
+[6, 4, 0]  [7, 4, 0]     O     
+
+
+
+Tictactoe Board:
+
+O  1  X  
+
+3  O  X  
+
+6  7  O  
+
+
+
+Tictactoe Board:
+
+O  1  X  
+
+3  O  X  
+
+6  O  O  
+
+The computer won!
+
+
+Utility Board:
+
+   O     [1, 10, 0]     X     
+
+[3, 2, 0]     O        X     
+
+[6, 12, 0]     O        O     
+
+
+
+Tictactoe Board:
+
+O  1  X  
+
+3  O  X  
+
+6  O  O  
+
+
+
+Tictactoe Board:
+
+O  O  X  
+
+3  O  X  
+
+6  O  O  
+
+The computer won!
+   
