@@ -1,3 +1,6 @@
+Aim: Implementation of A* Algorithm
+
+Program:
 from collections import deque
 class Graph:
     def __init__(self, adjac_lis):
@@ -55,3 +58,6 @@ class Graph:
 adjac_lis = {'A': [('B', 1), ('C', 3), ('D', 7)], 'B': [('D', 5)], 'C': [('D', 12)]}
 graph1 = Graph(adjac_lis)
 graph1.a_star_algorithm('A', 'D')
+
+Output:
+Path found: ['A', 'B', 'D']   
