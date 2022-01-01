@@ -26,7 +26,7 @@ class Graph:
             n = None
             for v in open_lst:
                 if n == None or poo[v] + self.h(v) < poo[n] + self.h(n):
-                    n = v;
+                    n = v
             if n == None:
                 print('Path does not exist!')
                 return None
