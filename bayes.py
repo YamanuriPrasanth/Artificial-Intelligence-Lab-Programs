@@ -1,3 +1,6 @@
+Aim: Implementation of  Bayesian Classification
+
+Program:
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -19,3 +22,8 @@ ac = accuracy_score(y_test,y_pred)
 cm = confusion_matrix(y_test, y_pred)
 print(ac)
 print(cm)
+
+Output:
+0.9125 
+[[55  3]
+ [ 4 18]]  
