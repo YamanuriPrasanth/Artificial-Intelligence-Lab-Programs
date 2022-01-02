@@ -1,3 +1,6 @@
+Aim: Implementation of water jug problem
+
+Program:
 print("water jug problem")
 x=int(input("enter the capacity of jug 1"))
 y=int(input("enter the capacity of jug 2"))
@@ -30,3 +33,5 @@ while True:
     if x==4:
         print("Goal Reached")
         break 
+        
+   Output:     
