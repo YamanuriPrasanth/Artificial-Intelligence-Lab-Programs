@@ -2,10 +2,10 @@ Aim: Implementation of water jug problem
 
 Program:
 print("water jug problem")
-x=int(input("enter the capacity of jug 1"))
-y=int(input("enter the capacity of jug 2"))
+x=int(input("Enter Initial value "))
+y=int(input("Enter Initial value "))
 while True:
-    rno=int(input("Enter rule number"))
+    rno=int(input("Enter rule number "))
     if rno==1:
         if x<=5:
             x=5
@@ -30,8 +30,34 @@ while True:
     if rno==8:
         if x+y>3 and x>0:
             x,y=x-(3-y),3
+    print('X is:',x)
+    print('Y is:',y)
     if x==4:
         print("Goal Reached")
         break 
         
-   Output:     
+Output:
+water jug problem
+Enter Initial value 0
+Enter Initial value 0
+Enter rule number 1
+X is: 5
+Y is: 0
+Enter rule number 8
+X is: 2
+Y is: 3
+Enter rule number 4
+X is: 2
+Y is: 0
+Enter rule number 7
+X is: 0
+Y is: 2
+Enter rule number 1
+X is: 5
+Y is: 2
+Enter rule number 8
+X is: 4
+Y is: 3
+Goal Reached    
+    
+    
