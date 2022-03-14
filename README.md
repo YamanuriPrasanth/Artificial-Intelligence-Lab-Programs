@@ -1,4 +1,4 @@
-# Artificial-Intelligence-Lab-Programs
+# Artificial-Intelligence-Lab-Programs in my 3-1 semester
 1) Write simple fact for the statements using PROLOG. 
 2) Write a program to solve the Monkey Banana problem. 
 3) implement towers of hanoi problem
