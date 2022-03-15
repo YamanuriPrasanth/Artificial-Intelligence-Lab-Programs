@@ -11,5 +11,5 @@
 10) Bayesian classification problem 
 11) Design a snake game
 
-![](https://socialify.git.ci/YamanuriPrasanth/Artificial-Intelligence-Lab-Programs/image?forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
+![](https://socialify.git.ci/YamanuriPrasanth/Artificial-Intelligence-Lab-Programs/image?forks=1&issues=1&language=1&logo=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTeRl9Ere2dn3wSpcvSBSs5GfnFqujaLrv-1A%26usqp%3DCAU&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light)
 
